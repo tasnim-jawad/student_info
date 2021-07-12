@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>student info</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="shortcut icon" href="img/Logo1.jpg">
+        
+            <meta charset="UTF-8">
+            <meta name="robots" content="index, follow">
+        
+            <meta http-equiv="cache-control" content="no-cache">
+            <meta http-equiv="expires" content="5000000">
+            <!-- <meta http-equiv="refresh" content="5"> -->
+        
+            <meta name="keywords" content="byinghouse,textile,texsource">
+            <meta name="description" content="you learn every things about html">
+            <meta name="author" content="amanullah">
+            <meta name="copyrigth" content="www.mysite.com">
+            <meta name="revisit" content="5 days">
+        
+            <meta property="og:title" content="html learn" />
+            <meta property="og:site_name" content="adfas" />
+            <meta property="og:description" content="" />
+            <meta property="og:type" content="article" />
+            <meta property="og:url" content="http://" />
+            <meta property="og:image" content="http://" />
+            <meta property="og:image:width" content="600" />
+            <meta property="og:image:height" content="315" />
+        
+            <meta name="twitter:title" content="">
+            <meta name="twitter:description" content="">
+            <meta name="twitter:image" content="http://">
+            <meta name="twitter:card" content="summary_large_image">
+            
+            <link rel="stylesheet" href="css/default.css">
+            <link rel="stylesheet" href="css/style.css">
+            
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="form_data">
+                    <form action="#" name="data">
+                        <h1>Give your information</h1>
+                        <div class="input">
+                            <label for="f_name">first name:</label>
+                            <input class="f_name" type="text" name="fname">
+                        </div>
+                        <div class="input">
+                            <label for="l_name">last name:</label>
+                            <input class="l_name" type="text" name="lname">
+                        </div>
+                        <div class="input">
+                            <label for="father_name">father's name:</label>
+                            <input class="father_name" type="text" name="fathername">
+                        </div>
+                        <div class="input">
+                            <label for="mother_name">mother's name:</label>
+                            <input class="mother_name" type="text" name="mothername">
+                        </div>
+                        <div class="input">
+                            <label for="roll">roll number:</label>
+                            <input class="roll" type="number" name="roll">
+                        </div>
+                        <div class="input">
+                            <label for="level">class/sem:/year:</label>
+                            <input class="level" type="text" name="level">
+                        </div>
+                        <div class="input">
+                            <label for="address">address:</label>
+                            <input class="address" type="text" name="address">
+                        </div>
+                        <div class="input">
+                            <label for="mobile">mobile:</label>
+                            <input class="mobile" type="number" name="mobile">
+                        </div>
+                        <div class="btns">
+                            <button type="button" onclick="info(data.fname.value, data.lname.value, data.fathername.value, data.mothername.value,data.roll.value,data.level.value,data.address.value, data.mobile.value,)" >submit</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="store_data">
+            <div class="container">
+                <div class="all_data">
+                    <h1>student information</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>first name</th>
+                                <th>last name</th>
+                                <th>father's name</th>
+                                <th>mother's name</th>
+                                <th>roll number</th>
+                                <th>class/sem:/year</th>
+                                <th>address</th>
+                                <th>mobile</th>
+                            </tr>
+                        </thead>
+                        <tbody >
+                            <tr id="myList"></tr>
+                            
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <script src="js/custom.js"></script>
+    </body>
+
+
+</html>
